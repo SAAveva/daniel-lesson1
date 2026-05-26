@@ -2,14 +2,14 @@
 
 use the main.c code as a starting point. You can write a function and add it to the update function to see the results.
 
-The code is untested, it's mostly a general outline then a ready to use template.
+The code is untested, it's mostly a general outline rather than a ready to use template.
 
 ## Tasks
 
 - create simple shapes (triangles, squares, circles, hexagons, etc)
 - work in NDC space and translate to screen space
 ```
-typedef {
+typedef struct {
 	int x;
 	int y;
 } Vec;
